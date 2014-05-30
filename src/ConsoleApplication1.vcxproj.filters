@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{b815afb0-78a9-41a0-b313-5262df6928da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Res">
+      <UniqueIdentifier>{0185302b-f1ee-4a1b-bce5-03b5e0c10029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{b7f9b417-5d56-4fec-9450-461eebc26d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Res">
+      <UniqueIdentifier>{9bb7ca88-54f4-4bec-9f7b-5a972b8f39d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{eedbdf77-8f57-4f7f-9497-1f1108849df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{cba8839d-003e-4a08-9850-25ed0d64fd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{994f9cff-4b59-4175-8afe-690573ca27fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{245fedf3-2492-4f53-a3cc-21c30f74648e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDriver.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateSystems.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="ground.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="palette.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_end_bot.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_end_top.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_main.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="background.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundManager.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="numbers.c">
+      <Filter>Source Files\Res</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\IComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RenderComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\EntityManager.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\ServiceLocator.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="gba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\GraphicsManager.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\PlayerDriver.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\IEntitySystem.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\UpdateSystems.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\palette.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\pipe_end_bot.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\pipe_end_top.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\pipe_main.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\sky.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\background.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\bird.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\ground.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BackgroundComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\CollisionSystem.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\BackgroundManager.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\numbers.h">
+      <Filter>Header Files\Res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
